@@ -1,7 +1,10 @@
-/*.profilepic {
-  float: right;
-  }*/
 body {
   background-color: black;
   color: white;
+}
+.col-sm-4 p h1 h2{
+  width: 25%;
+}
+h1 {
+  font-family: cursive;
 }
