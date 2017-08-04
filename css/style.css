@@ -15,3 +15,7 @@ h1 {
   margin-top: 20vw
   padding: inherit;
 }
+.blockemquote p footer{
+float: right;
+float: bottom;
+}
