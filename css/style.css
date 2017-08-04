@@ -11,3 +11,7 @@ h1 {
 .my-work {
   float: right;
 }
+.about-me p {
+  margin-top: 20vw
+  padding: inherit;
+}
