@@ -142,3 +142,10 @@ nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav
 color: #CCC;
 background-color: transparent;
 }
+
+nav:hover .forAnimate{
+opacity: 1;
+}
+section{
+padding-left: 15px;
+}

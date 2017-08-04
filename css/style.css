@@ -8,3 +8,6 @@ body {
 h1 {
   font-family: cursive;
 }
+.my-work {
+  float: right;
+}

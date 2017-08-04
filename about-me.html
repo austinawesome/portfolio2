@@ -19,13 +19,10 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/sidebar.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-
-
   <!-- <h1>Austin The Kraken</h1> -->
 <img src="images/kraken.png" class="pull-right">
-
+<h1 class="text-center"> About Austin </h1>
 
 <nav class="navbar navbar-inverse sidebar" role="navigation">
     <div class="container-fluid">
@@ -52,57 +49,10 @@
 		</div>
 	</div>
 </nav>
-<!-- Content Here -->
-<!-- -end of nav bar, begin main page---->
-<div class="main">
+<div class="about-me">
 <div class="container">
   <div class="row">
   <div class="col-sm-4"></div>
-  <div class="col-sm-4">
-    <h1 class="text-center"><strong>Austin</strong><br></h1>
-    <span class="text-muted"><span class="text-center"><br><br><br><br><br><h2>Master Kraken</h2><br><br><br><p>An Extrovert in a world of Introverts.<em>Intentacled</em> on bringing them out of their shell, So that we may all collaborate and achieve the greatest results</p></span></span>
-      </div>
-    </div>
-    </div>
-  <div class="col-sm-4"></div>
-</div>
-
-
-
-
-<!-- sidebar script -->
-<script>
-function htmlbodyHeightUpdate(){
-var height3 = $( window ).height()
-var height1 = $('.nav').height()+50
-height2 = $('.main').height()
-if(height2 > height3){
-  $('html').height(Math.max(height1,height3,height2)+10);
-  $('body').height(Math.max(height1,height3,height2)+10);
-}
-else
-{
-  $('html').height(Math.max(height1,height3,height2));
-  $('body').height(Math.max(height1,height3,height2));
-}
-
-}
-$(document).ready(function () {
-htmlbodyHeightUpdate()
-$( window ).resize(function() {
-  htmlbodyHeightUpdate()
-});
-$( window ).scroll(function() {
-  height2 = $('.main').height()
-    htmlbodyHeightUpdate()
-});
-});
-</script>
-<script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});
-</script>
+<div class="col-sm-4"><p>Austin<br>A college graduate from P.S.U. having specialized in phyto-remediation thinking he could save the world, soon realized philanthropy is hard when you don,t get paid. Austin has served as a project manager and efficiency manager for many companies in the communications field such as verizon, voicestream, nextel and sprint. Hobbies include firedancing stilt walking and performing</div>
+<div class="col-sm-4"></div>
 </body>
-
-</html>
