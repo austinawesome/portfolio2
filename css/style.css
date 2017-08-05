@@ -2,20 +2,27 @@ body {
   background-color: black;
   color: white;
 }
-.col-sm-4 p h1 h2{
+
+.col-sm-4 p h1 h2 {
   width: 25%;
 }
+
 h1 {
   font-family: cursive;
 }
-.my-work {
-  float: right;
+
+div.my-work {
+  position: absolute;
+  top: 30vh;
+  width: 200px;
+  height: 100px;
 }
+
 .about-me p {
-  margin-top: 20vw
-  padding: inherit;
+  margin-top: 20vh padding: inherit;
 }
-.blockemquote p footer{
-float: right;
-float: bottom;
+
+div.blockemquote p {
+  top: 90vh;
+  font-size: 8px;
 }
