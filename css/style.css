@@ -14,7 +14,7 @@ body {
 }
 
 .about-me-column {
-  width: 25vw;
+  width: 35vw;
   height: 25vh;
 }
 
@@ -30,7 +30,7 @@ div.my-work {
 }
 
 .about-me p {
-  margin-top: 20vh padding: inherit;
+  margin-top: 15vh;
 }
 
 #blockemquote {
@@ -38,4 +38,13 @@ div.my-work {
   font-size: 10px;
   top: 80vh;
   left: 50vw;
+}
+
+#center-It {
+  position: absolute;
+  left: 30vw;
+}
+
+#hide-me {
+  display: none;
 }
