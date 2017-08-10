@@ -23,83 +23,34 @@
 <body>
   <!-- <h1>Austin The Kraken</h1> -->
   <img src="images/kraken.png" class="pull-right">
-  <!--this is where it weirds below-------->
 
-  <nav class="navbar navbar-inverse sidebar" role="navigation">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Austins links</a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-        <li ><a href="my-work.html">My work<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
-        <li><a href="about-me.html">About Me<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
-        <li ><a href="https://wwww.facebook.com">facebook<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-sunglasses"></span></a></li>
-        <li ><a href="https://github.com/austinawesome">Git-Profile<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-globe"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
   <div class="main">
     <div class="my-work">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4"></div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 editedcolumn">
+            <ul>
+              <li><a href="index.html">Home</a><br></li>
+              <li><a href="about-me.html">about me</a><br></li>
+              <li><a href="my-work.html">My Work</a><br></li>
+            </ul>
+          </div>
+          <div class="col-sm-5">
             <span class="text-center"><h1><strong>My Work</h1></strong></span>
             <div class="text-muted">
               <ol>
                 <li><a href="https://github.com/austinawesome/fakipedia">Fakipedia</a><br>a work in progess with html, css and bootstrap</li>
                 <li><a href="https://github.com/austinawesome/tahiti">tahiti</a><br>another play with those elements</li>
                 <li><a href="https://github.com/austinawesome/animal-shelter">animal-shelter</a><br>there so cute</li>
-                <li><a href="https://github.com/austinawesome/band.html">band</a><br>its like music</li></span>
+                <li><a href="https://github.com/austinawesome/band.html">band</a><br>its like music</li>
+                </span>
               </ol>
             </div>
           </div>
-          <div class="col-sm-4"></div>
+          <div class="col-sm-3"></div>
         </div>
       </div>
 
-      <!-- sidebar script -->
-      <script>
-        function htmlbodyHeightUpdate() {
-          var height3 = $(window).height()
-          var height1 = $('.nav').height() + 50
-          height2 = $('.main').height()
-          if (height2 > height3) {
-            $('html').height(Math.max(height1, height3, height2) + 10);
-            $('body').height(Math.max(height1, height3, height2) + 10);
-          } else {
-            $('html').height(Math.max(height1, height3, height2));
-            $('body').height(Math.max(height1, height3, height2));
-          }
-
-        }
-        $(document).ready(function() {
-          htmlbodyHeightUpdate()
-          $(window).resize(function() {
-            htmlbodyHeightUpdate()
-          });
-          $(window).scroll(function() {
-            height2 = $('.main').height()
-            htmlbodyHeightUpdate()
-          });
-        });
-      </script>
-      <script>
-        $(document).ready(function() {
-          $('[data-toggle="tooltip"]').tooltip();
-        });
-      </script>
 </body>
 
 </html>

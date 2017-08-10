@@ -3,8 +3,19 @@ body {
   color: white;
 }
 
-.col-sm-4 p h1 h2 {
-  width: 25%;
+.centeredcolumn {
+  width: 30vw;
+  height: 25vh;
+}
+
+.editedcolumn {
+  width: 30vw;
+  height: 25vh;
+}
+
+.about-me-column {
+  width: 25vw;
+  height: 25vh;
 }
 
 h1 {
@@ -22,7 +33,9 @@ div.my-work {
   margin-top: 20vh padding: inherit;
 }
 
-div.blockemquote p {
-  top: 90vh;
-  font-size: 8px;
+#blockemquote {
+  position: absolute;
+  font-size: 10px;
+  top: 80vh;
+  left: 50vw;
 }
