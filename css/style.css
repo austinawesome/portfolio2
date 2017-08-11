@@ -2,16 +2,49 @@ body {
   background-color: black;
   color: white;
 }
-.col-sm-4 p h1 h2{
-  width: 25%;
+
+.centeredcolumn {
+  width: 30vw;
+  height: 25vh;
 }
+
+.editedcolumn {
+  width: 30vw;
+  height: 25vh;
+}
+
+.about-me-column {
+  width: 35vw;
+  height: 25vh;
+}
+
 h1 {
   font-family: cursive;
 }
-.my-work {
-  float: right;
+
+div.my-work {
+  position: absolute;
+  top: 30vh;
+  width: 200px;
+  height: 100px;
 }
+
 .about-me p {
-  margin-top: 20vw
-  padding: inherit;
+  margin-top: 15vh;
+}
+
+#blockemquote {
+  position: absolute;
+  font-size: 10px;
+  top: 80vh;
+  left: 50vw;
+}
+
+#center-It {
+  position: absolute;
+  left: 30vw;
+}
+
+#hide-me {
+  display: none;
 }
