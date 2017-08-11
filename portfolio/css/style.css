@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.centeredcolumn {
+  width: 30vw;
+  height: 25vh;
+}
+
+.editedcolumn {
+  width: 30vw;
+  height: 25vh;
+}
+
+.about-me-column {
+  width: 35vw;
+  height: 25vh;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+div.my-work {
+  position: absolute;
+  top: 30vh;
+  width: 200px;
+  height: 100px;
+}
+
+.about-me p {
+  margin-top: 15vh;
+}
+
+#blockemquote {
+  position: absolute;
+  font-size: 10px;
+  top: 80vh;
+  left: 50vw;
+  width: 360px;
+}
+
+#center-It {
+  position: absolute;
+  left: 30vw;
+}
+
+#hide-me {
+  display: none;
+}
