@@ -4,7 +4,7 @@ project name: "Portfolio"
 description: this is a mock up Portfolio
 setup instructions: this is a fully assembled page so no setup shouild be required
  link to GitHub Pages.
-
+https://austinawesome.github.io/portfolio/index.html
  Copyright <2017> <mit license>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
